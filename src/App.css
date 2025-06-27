@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+  font-family: 'Arial Rounded', sans-serif;
+  background: #f47da1;
+  min-height: 100vh;
+  padding: 30px;
+}
+
+.song-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #555;
+}
+.song-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 800px;
+  margin: 0 auto;
+}

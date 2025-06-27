@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff0f5;
+  overflow-x: hidden;               /* ✅ Prevent horizontal scroll */
+}
+
+.app-container {
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+}
